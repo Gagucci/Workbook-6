@@ -35,6 +35,6 @@ public class CreditCard implements Valuable {
 
     @Override
     public void getValue() {
-
+        System.out.println("The value of the credit card is: " + (creditLimit - balance));
     }
 }

@@ -1,11 +1,13 @@
 package com.pluralsight.finance;
 
 public class BankAccount implements Valuable {
+    private String name;
     private String accountNumber;
     private double balance;
 
-    public BankAccount(String accountNumber, double balance) {
+    public BankAccount(String accountNumber, String name, double balance) {
         this.accountNumber = accountNumber;
+        this.name = name;
         this.balance = balance;
     }
 
