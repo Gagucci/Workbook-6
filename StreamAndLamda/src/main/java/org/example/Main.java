@@ -8,6 +8,10 @@ import java.util.stream.Collectors;
 public class Main {
     public static void main(String[] args) {
 
+        List<String> names = Arrays.asList("Cricelia","Jon","Emiliya");
+
+        names.forEach(x -> System.out.println(x));
+
 
         // Assuming Smoothie class is defined with: public Smoothie(String name, double price, boolean isVegan, String... ingredients)
         Smoothie greenBoost = new Smoothie("Green Boost", 4.99, true, "Spinach", "Apple");
